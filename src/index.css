@@ -1,0 +1,39 @@
+/*CUSTOM CLASSES*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8e8e8 !important ;
+}
+
+.article-section {
+  max-width: 600px;
+}
+
+h1.news-title {
+  font-size: 18px !important;
+  color: #0e1111;
+}
+
+.news-description {
+  font-weight: 600;
+  font-size: 14px;
+  color: #3b444b;
+}
+
+#search-bar {
+  max-width: 400px;
+}
+
+@media screen and (min-width: 720px) {
+  .newsclip-image {
+    width: 100%;
+    max-width: 600px;
+    height: 20vw;
+    object-fit: cover;
+  }
+}
