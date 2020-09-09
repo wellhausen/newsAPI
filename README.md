@@ -1,3 +1,3 @@
 - Fully responsive UI built with react.js and bootstrap.
 - Can search for any news term and then select date, popularity, relevance, or none to sort the results by.
-- View the UI at dianewsapi.tk
+- To run: download this code, cd into the root folder, run npm install, then npm start
